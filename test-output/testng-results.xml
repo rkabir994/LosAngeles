@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-16T11:26:24 PDT" name="Default suite" finished-at="2021-07-16T11:27:40 PDT" duration-ms="76353">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunneerrr2.TestRunneerrr2@49dc7102]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-07-16T11:26:24 PDT" name="Default test" finished-at="2021-07-16T11:27:40 PDT" duration-ms="76353">
+      <class name="TestRunneerrr2.TestRunneerrr2">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunneerrr2.TestRunneerrr2@49dc7102]" started-at="2021-07-16T11:26:24 PDT" name="setUpClass" finished-at="2021-07-16T11:26:24 PDT" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunneerrr2.TestRunneerrr2@49dc7102]" started-at="2021-07-16T11:26:25 PDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-07-16T11:27:40 PDT" duration-ms="75398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunneerrr2.TestRunneerrr2@49dc7102]" started-at="2021-07-16T11:27:40 PDT" name="tearDownClass" finished-at="2021-07-16T11:27:40 PDT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunneerrr2.TestRunneerrr2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validate amazon functionality is working",
+        "description": "",
+        "id": "amazon-functionality;validate-amazon-functionality-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22447573000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is open",
+            "match": {
+              "location": "Stepdeeffff1.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10966569800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on amazon homepage",
+            "match": {
+              "location": "Stepdeeffff1.user_is_on_amazon_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4767539600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter a text in search box",
+            "match": {
+              "location": "Stepdeeffff1.user_enter_a_text_in_search_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11241247700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user hits enter",
+            "match": {
+              "location": "Stepdeeffff1.user_hits_enter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13623904400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user select an item",
+            "match": {
+              "location": "Stepdeeffff1.user_select_an_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12043426600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user add item to cart",
+            "match": {
+              "location": "Stepdeeffff1.user_add_item_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon functionality",
+    "description": "",
+    "id": "amazon-functionality",
+    "keyword": "Feature",
+    "uri": "Amazon.feature"
+  }
+]
